@@ -4,7 +4,7 @@
       dark: darkMode,
     }"
   >
-    <div class="dark:bg-slate-800 dark:text-white h-screen">
+    <div class="dark:bg-slate-800 dark:text-white h-full min-h-screen">
       <div class="max-w-5xl m-auto flex flex-col gap-5 pt-20 p-5">
         <DarkThemeDisabledIcon
           v-if="!darkMode"
