@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "njc-portfolio",
   "private": true,
   "type": "module",
   "scripts": {
@@ -12,8 +12,10 @@
   "devDependencies": {
     "@nuxt/content": "latest",
     "@nuxt/devtools": "latest",
+    "@nuxtjs/google-fonts": "^3.1.3",
     "@nuxtjs/tailwindcss": "nightly",
     "@pinia/nuxt": "latest",
+    "@tailwindcss/typography": "^0.5.10",
     "@vueuse/nuxt": "latest",
     "nuxt": "^3.8.2",
     "nuxt-icon": "^0.6.7",

@@ -19,10 +19,12 @@ const colourMode = useColorMode();
         </button>
       </div>
     </div>
-    <div class="max-w-xl mx-auto mb-10">
+    <div
+      class="max-w-sm md:max-w-prose mx-auto prose prose-slate lg:prose-lg dark:prose-invert"
+    >
       <slot />
     </div>
-    <div class="flex justify-center max-w-xl mx-auto gap-2">
+    <div class="flex justify-center max-w-prose mx-auto gap-2 pb-10">
       <a href="https://www.linkedin.com/in/nathan-collins-411157a0/">
         <Icon name="mdi:linkedin" />
       </a>

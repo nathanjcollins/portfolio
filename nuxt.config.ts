@@ -7,5 +7,12 @@ export default defineNuxtConfig({
     "@pinia/nuxt",
     "@nuxt/image",
     "nuxt-icon",
+    "@nuxtjs/google-fonts",
   ],
+  googleFonts: {
+    families: {
+      "JetBrains Mono": true,
+    },
+    preload: true,
+  },
 });
