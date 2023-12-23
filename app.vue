@@ -8,7 +8,7 @@ useHead({
     {
       rel: "icon",
       type: "image/png",
-      href: "/favicon.png",
+      href: "/me.png",
     },
   ],
 });
@@ -27,7 +27,7 @@ useSeoMeta({
 </script>
 
 useHead({ htmlAttrs: { lang: 'en' }, link: [ { rel: 'icon', type: 'image/png',
-href: '/favicon.png' } ] })
+href: '/me.png' } ] })
 <template>
   <NuxtLayout class="dark:bg-slate-900 dark:text-white min-h-screen">
     <NuxtPage />
