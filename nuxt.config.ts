@@ -20,7 +20,7 @@ export default defineNuxtConfig({
 
   compatibilityDate: "2025-02-13",
   nitro: {
-    preset: "digital_ocean",
+    preset: "static",
   },
 });
 
