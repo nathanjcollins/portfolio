@@ -3,8 +3,8 @@
     <div class="max-w-4xl mx-auto">
       <!-- Back button -->
       <div class="mb-8">
-        <NuxtLink 
-          to="/blog" 
+        <NuxtLink
+          to="/blog"
           class="inline-flex items-center space-x-2 text-gray-400 hover:text-white transition-colors"
         >
           <Icon name="mdi:arrow-left" class="w-5 h-5" />
@@ -15,21 +15,21 @@
       <!-- Article header -->
       <header class="mb-12">
         <div class="text-sm text-gray-500 mb-4">
-          {{ formatDate(data.date) }}
+          {{ formatDate(post.date) }}
         </div>
-        
+
         <h1 class="text-4xl md:text-5xl font-bold mb-4 leading-tight">
-          {{ data.title }}
+          {{ post.title }}
         </h1>
-        
-        <p class="text-xl text-gray-400 mb-6" v-if="data.description">
-          {{ data.description }}
+
+        <p class="text-xl text-gray-400 mb-6" v-if="post.description">
+          {{ post.description }}
         </p>
-        
+
         <!-- Tags -->
-        <div class="flex flex-wrap gap-2" v-if="data.tags">
-          <span 
-            v-for="tag in data.tags" 
+        <div class="flex flex-wrap gap-2" v-if="post.tags">
+          <span
+            v-for="tag in post.tags"
             :key="tag"
             class="px-3 py-1 bg-blue-500/20 text-blue-300 text-sm rounded-full"
           >
@@ -40,19 +40,25 @@
 
       <!-- Article content -->
       <div class="prose prose-invert prose-lg max-w-none">
-        <ContentRenderer :value="data" />
+        <ContentRenderer :value="post" />
       </div>
 
       <!-- Author info -->
       <div class="mt-16 pt-8 border-t border-gray-800">
         <div class="flex items-center space-x-4">
-          <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center text-xl font-bold text-white">
+          <div
+            class="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center text-xl font-bold text-white"
+          >
             NC
           </div>
           <div>
             <h3 class="font-semibold text-lg">Nathan Collins</h3>
-            <p class="text-gray-400">Senior Software Engineer from Oxford, UK</p>
-            <p class="text-sm text-gray-500 mt-1">10+ years of experience in web development</p>
+            <p class="text-gray-400">
+              Senior Software Engineer from Oxford, UK
+            </p>
+            <p class="text-sm text-gray-500 mt-1">
+              10+ years of experience in web development
+            </p>
           </div>
         </div>
       </div>
@@ -61,30 +67,36 @@
       <div class="mt-16 pt-8 border-t border-gray-800">
         <div class="flex justify-between items-center">
           <div>
-            <NuxtLink 
-              v-if="prev" 
-              :to="prev._path"
+            <NuxtLink
+              v-if="prev"
+              :to="prev.path"
               class="group flex items-center space-x-2 text-gray-400 hover:text-white transition-colors"
             >
-              <Icon name="mdi:arrow-left" class="w-5 h-5 transform group-hover:-translate-x-1 transition-transform" />
+              <Icon
+                name="mdi:arrow-left"
+                class="w-5 h-5 transform group-hover:-translate-x-1 transition-transform"
+              />
               <div class="text-left">
                 <div class="text-xs text-gray-500">Previous</div>
                 <div class="font-medium">{{ prev.title }}</div>
               </div>
             </NuxtLink>
           </div>
-          
+
           <div>
-            <NuxtLink 
-              v-if="next" 
-              :to="next._path"
+            <NuxtLink
+              v-if="next"
+              :to="next.path"
               class="group flex items-center space-x-2 text-gray-400 hover:text-white transition-colors"
             >
               <div class="text-right">
                 <div class="text-xs text-gray-500">Next</div>
                 <div class="font-medium">{{ next.title }}</div>
               </div>
-              <Icon name="mdi:arrow-right" class="w-5 h-5 transform group-hover:translate-x-1 transition-transform" />
+              <Icon
+                name="mdi:arrow-right"
+                class="w-5 h-5 transform group-hover:translate-x-1 transition-transform"
+              />
             </NuxtLink>
           </div>
         </div>
@@ -94,50 +106,60 @@
 </template>
 
 <script setup>
-const { path } = useRoute()
+const route = useRoute();
 
 // Get the current post
-const data = await $fetch(`/api/_content/query`, {
-  method: 'GET',
-  query: {
-    where: [{ _path: path }],
-    limit: 1
-  }
-}).then(results => results[0]).catch(() => null)
+const { data: post } = await useAsyncData(`blog-${route.path}`, () =>
+  queryCollection("blog").where("path", "=", route.path).first(),
+);
 
-if (!data) {
+if (!post.value) {
   throw createError({
     statusCode: 404,
-    statusMessage: 'Blog post not found'
-  })
+    statusMessage: "Blog post not found",
+  });
 }
 
-// Get previous and next posts (simplified)
-const prev = null
-const next = null
+// Get previous and next posts
+const allPosts = await queryCollection("blog")
+  .where("draft", "<>", true)
+  .order("date", "ASC")
+  .all();
+
+const currentIndex = allPosts.findIndex((p) => p.path === route.path);
+const prev = currentIndex > 0 ? allPosts[currentIndex - 1] : null;
+const next =
+  currentIndex < allPosts.length - 1 ? allPosts[currentIndex + 1] : null;
 
 useHead({
-  title: `${data.title} - Nathan Collins`,
+  title: `${post.value.title} - Nathan Collins`,
   meta: [
-    { name: 'description', content: data.description || `Read about ${data.title} by Nathan Collins` },
-    { property: 'og:title', content: data.title },
-    { property: 'og:description', content: data.description },
-    { property: 'og:type', content: 'article' },
-    { property: 'article:published_time', content: data.date },
-    { property: 'article:author', content: 'Nathan Collins' }
-  ]
-})
+    {
+      name: "description",
+      content:
+        post.value.description ||
+        `Read about ${post.value.title} by Nathan Collins`,
+    },
+    { property: "og:title", content: post.value.title },
+    { property: "og:description", content: post.value.description },
+    { property: "og:type", content: "article" },
+    { property: "article:published_time", content: post.value.date },
+    { property: "article:author", content: "Nathan Collins" },
+  ],
+});
 
 const formatDate = (date) => {
-  return new Date(date).toLocaleDateString('en-GB', {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric'
-  })
-}
+  return new Date(date).toLocaleDateString("en-GB", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+};
 </script>
 
 <style>
+@reference "tailwindcss";
+
 .prose {
   @apply text-gray-300;
 }

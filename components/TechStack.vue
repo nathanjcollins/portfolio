@@ -14,7 +14,9 @@
         <!-- Frontend -->
         <div class="glass-card p-8 card-hover-lift group">
           <div class="flex items-center mb-6">
-            <div class="w-12 h-12 bg-green-500/20 rounded-lg flex items-center justify-center mr-4 group-hover:bg-green-500/30 transition-colors">
+            <div
+              class="w-12 h-12 bg-green-500/20 rounded-lg flex items-center justify-center mr-4 group-hover:bg-green-500/30 transition-colors"
+            >
               <Icon name="mdi:vuejs" class="w-8 h-8 text-green-400" />
             </div>
             <h3 class="text-xl font-semibold">Frontend</h3>
@@ -66,8 +68,13 @@
         <!-- Backend -->
         <div class="glass-card p-8 card-hover-lift group">
           <div class="flex items-center mb-6">
-            <div class="w-12 h-12 bg-purple-500/20 rounded-lg flex items-center justify-center mr-4 group-hover:bg-purple-500/30 transition-colors">
-              <Icon name="mdi:microsoft-visual-studio" class="w-8 h-8 text-purple-400" />
+            <div
+              class="w-12 h-12 bg-purple-500/20 rounded-lg flex items-center justify-center mr-4 group-hover:bg-purple-500/30 transition-colors"
+            >
+              <Icon
+                name="mdi:microsoft-visual-studio"
+                class="w-8 h-8 text-purple-400"
+              />
             </div>
             <h3 class="text-xl font-semibold">Backend</h3>
           </div>
@@ -118,7 +125,9 @@
         <!-- Database -->
         <div class="glass-card p-8 card-hover-lift group">
           <div class="flex items-center mb-6">
-            <div class="w-12 h-12 bg-blue-500/20 rounded-lg flex items-center justify-center mr-4 group-hover:bg-blue-500/30 transition-colors">
+            <div
+              class="w-12 h-12 bg-blue-500/20 rounded-lg flex items-center justify-center mr-4 group-hover:bg-blue-500/30 transition-colors"
+            >
               <Icon name="mdi:database" class="w-8 h-8 text-blue-400" />
             </div>
             <h3 class="text-xl font-semibold">Database</h3>
@@ -170,7 +179,9 @@
         <!-- DevOps & Tools -->
         <div class="glass-card p-8 card-hover-lift group">
           <div class="flex items-center mb-6">
-            <div class="w-12 h-12 bg-orange-500/20 rounded-lg flex items-center justify-center mr-4 group-hover:bg-orange-500/30 transition-colors">
+            <div
+              class="w-12 h-12 bg-orange-500/20 rounded-lg flex items-center justify-center mr-4 group-hover:bg-orange-500/30 transition-colors"
+            >
               <Icon name="mdi:cloud" class="w-8 h-8 text-orange-400" />
             </div>
             <h3 class="text-xl font-semibold">DevOps & Cloud</h3>
@@ -222,7 +233,9 @@
         <!-- Tools -->
         <div class="glass-card p-8 card-hover-lift group">
           <div class="flex items-center mb-6">
-            <div class="w-12 h-12 bg-pink-500/20 rounded-lg flex items-center justify-center mr-4 group-hover:bg-pink-500/30 transition-colors">
+            <div
+              class="w-12 h-12 bg-pink-500/20 rounded-lg flex items-center justify-center mr-4 group-hover:bg-pink-500/30 transition-colors"
+            >
               <Icon name="mdi:tools" class="w-8 h-8 text-pink-400" />
             </div>
             <h3 class="text-xl font-semibold">Tools & Workflow</h3>
@@ -274,7 +287,9 @@
         <!-- Architecture -->
         <div class="glass-card p-8 card-hover-lift group">
           <div class="flex items-center mb-6">
-            <div class="w-12 h-12 bg-cyan-500/20 rounded-lg flex items-center justify-center mr-4 group-hover:bg-cyan-500/30 transition-colors">
+            <div
+              class="w-12 h-12 bg-cyan-500/20 rounded-lg flex items-center justify-center mr-4 group-hover:bg-cyan-500/30 transition-colors"
+            >
               <Icon name="mdi:architecture" class="w-8 h-8 text-cyan-400" />
             </div>
             <h3 class="text-xl font-semibold">Architecture</h3>
@@ -326,3 +341,4 @@
     </div>
   </section>
 </template>
+
