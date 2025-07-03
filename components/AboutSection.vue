@@ -9,14 +9,13 @@
               About <span class="gradient-text">Me</span>
             </h2>
             <p class="text-xl text-gray-300 leading-relaxed mb-6">
-              I'm a passionate senior software engineer with over 10 years of
+              I'm a passionate Lead Developer at Cap Energy with over 10 years of
               experience building scalable web applications and leading
               development teams.
             </p>
             <p class="text-lg text-gray-400 leading-relaxed mb-6">
-              Based in the historic city of Oxford, UK, I've had the privilege
-              of working with startups and established companies alike, helping
-              them transform their digital presence and streamline their
+              Based in the historic city of Oxford, UK, I currently lead development
+              at Cap Energy, where I help transform digital presence and streamline
               operations through elegant code and thoughtful architecture.
             </p>
           </div>
@@ -84,7 +83,7 @@
               <div>
                 <p class="font-semibold">Oxford, United Kingdom</p>
                 <p class="text-sm text-gray-400">
-                  Available for remote work worldwide
+                  Leading development at Cap Energy
                 </p>
               </div>
             </div>
@@ -122,7 +121,7 @@
 
           <!-- Call to action -->
           <div class="text-center">
-            <p class="text-gray-400 mb-6">Interested in working together?</p>
+            <p class="text-gray-400 mb-6">Want to connect?</p>
             <a
               href="mailto:hello@nathancollins.dev"
               class="inline-flex items-center space-x-2 px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105"

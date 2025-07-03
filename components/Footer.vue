@@ -10,11 +10,11 @@
             </div>
             <div>
               <h3 class="text-xl font-bold">Nathan Collins</h3>
-              <p class="text-gray-400">Senior Software Engineer</p>
+              <p class="text-gray-400">Lead Developer at Cap Energy</p>
             </div>
           </div>
           <p class="text-gray-400 mb-6 max-w-md">
-            Passionate about creating exceptional web applications and contributing to the open source community. Based in Oxford, UK, available for remote work worldwide.
+Lead Developer at Cap Energy, passionate about creating exceptional web applications and contributing to the open source community. Based in Oxford, UK.
           </p>
           <div class="flex items-center space-x-4">
             <a href="https://github.com/nathancollins" class="text-gray-400 hover:text-white transition-colors">

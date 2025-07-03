@@ -24,7 +24,7 @@
 
       <!-- Subtitle -->
       <p class="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
-        Senior Software Engineer from Oxford, UK with 10+ years of experience crafting exceptional web applications
+        Lead Developer at Cap Energy from Oxford, UK with 10+ years of experience crafting exceptional web applications
       </p>
 
       <!-- Tech highlights -->
