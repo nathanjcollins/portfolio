@@ -22,7 +22,7 @@
                 class="w-12 h-12 bg-emerald-500/20 rounded-lg flex items-center justify-center"
               >
                 <Icon
-                  name="mdi:microsoft-visual-studio-code"
+                  name="mdi:file-code-outline"
                   class="w-8 h-8 text-emerald-400"
                 />
               </div>
@@ -93,7 +93,7 @@
               <div
                 class="w-12 h-12 bg-green-500/20 rounded-lg flex items-center justify-center"
               >
-                <Icon name="mdi:vim" class="w-8 h-8 text-green-400" />
+                <Icon name="mdi:code-braces" class="w-8 h-8 text-green-400" />
               </div>
               <div>
                 <h3
