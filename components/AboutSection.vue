@@ -25,9 +25,9 @@
           <div class="space-y-6">
             <div class="flex items-start space-x-4">
               <div
-                class="w-12 h-12 bg-blue-500/20 rounded-lg flex items-center justify-center flex-shrink-0 mt-1"
+                class="w-12 h-12 bg-green-500/20 rounded-lg flex items-center justify-center flex-shrink-0 mt-1"
               >
-                <Icon name="mdi:rocket" class="w-6 h-6 text-blue-400" />
+                <Icon name="mdi:rocket" class="w-6 h-6 text-green-400" />
               </div>
               <div>
                 <h3 class="font-semibold text-lg mb-2">Full-Stack Expertise</h3>
@@ -41,11 +41,11 @@
 
             <div class="flex items-start space-x-4">
               <div
-                class="w-12 h-12 bg-purple-500/20 rounded-lg flex items-center justify-center flex-shrink-0 mt-1"
+                class="w-12 h-12 bg-emerald-500/20 rounded-lg flex items-center justify-center flex-shrink-0 mt-1"
               >
                 <Icon
                   name="mdi:account-group"
-                  class="w-6 h-6 text-purple-400"
+                  class="w-6 h-6 text-emerald-400"
                 />
               </div>
               <div>
@@ -97,15 +97,15 @@
             <h3 class="text-xl font-semibold mb-6 text-center">Core Values</h3>
             <div class="space-y-4">
               <div class="flex items-center space-x-3">
-                <div class="w-2 h-2 bg-blue-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-green-400 rounded-full"></div>
                 <span class="text-gray-300">Clean, maintainable code</span>
               </div>
               <div class="flex items-center space-x-3">
-                <div class="w-2 h-2 bg-pink-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-emerald-400 rounded-full"></div>
                 <span class="text-gray-300">User-centered design</span>
               </div>
               <div class="flex items-center space-x-3">
-                <div class="w-2 h-2 bg-purple-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-teal-400 rounded-full"></div>
                 <span class="text-gray-300">Continuous learning</span>
               </div>
               <div class="flex items-center space-x-3">
