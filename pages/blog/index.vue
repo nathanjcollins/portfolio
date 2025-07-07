@@ -27,7 +27,7 @@
 
             <!-- Title -->
             <h2
-              class="text-xl font-semibold mb-3 group-hover:text-blue-400 transition-colors"
+              class="text-xl font-semibold mb-3 group-hover:text-green-400 transition-colors"
             >
               {{ article.title }}
             </h2>
@@ -42,7 +42,7 @@
               <span
                 v-for="tag in article.tags"
                 :key="tag"
-                class="px-2 py-1 bg-blue-500/20 text-blue-300 text-xs rounded-full"
+                class="px-2 py-1 bg-green-500/20 text-green-300 text-xs rounded-full"
               >
                 {{ tag }}
               </span>
@@ -50,7 +50,7 @@
 
             <!-- Read more link -->
             <div
-              class="flex items-center text-blue-400 text-sm font-medium group-hover:text-blue-300 transition-colors"
+              class="flex items-center text-green-400 text-sm font-medium group-hover:text-green-300 transition-colors"
             >
               <span>Read more</span>
               <Icon

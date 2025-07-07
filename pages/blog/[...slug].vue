@@ -31,7 +31,7 @@
           <span
             v-for="tag in post.tags"
             :key="tag"
-            class="px-3 py-1 bg-blue-500/20 text-blue-300 text-sm rounded-full"
+            class="px-3 py-1 bg-green-500/20 text-green-300 text-sm rounded-full"
           >
             {{ tag }}
           </span>
@@ -46,10 +46,12 @@
       <!-- Author info -->
       <div class="mt-16 pt-8 border-t border-gray-800">
         <div class="flex items-center space-x-4">
-          <div
-            class="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center text-xl font-bold text-white"
-          >
-            NC
+          <div class="w-16 h-16 rounded-full overflow-hidden ring-2 ring-green-500/30">
+            <img 
+              src="/images/profile.jpg" 
+              alt="Nathan Collins" 
+              class="w-full h-full object-cover"
+            />
           </div>
           <div>
             <h3 class="font-semibold text-lg">Nathan Collins</h3>
@@ -186,11 +188,11 @@ const formatDate = (date) => {
 }
 
 .prose a {
-  @apply text-blue-400 hover:text-blue-300 transition-colors;
+  @apply text-green-400 hover:text-green-300 transition-colors;
 }
 
 .prose code {
-  @apply bg-gray-800 text-pink-300 px-2 py-1 rounded text-sm;
+  @apply bg-gray-800 text-green-300 px-2 py-1 rounded text-sm;
 }
 
 .prose pre {
@@ -202,7 +204,7 @@ const formatDate = (date) => {
 }
 
 .prose blockquote {
-  @apply border-l-4 border-blue-500 pl-6 italic text-gray-400 my-6;
+  @apply border-l-4 border-green-500 pl-6 italic text-gray-400 my-6;
 }
 
 .prose ul,

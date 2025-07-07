@@ -80,7 +80,7 @@
           <!-- Location and availability -->
           <div class="glass-card p-6">
             <div class="flex items-center space-x-4">
-              <Icon name="mdi:map-marker" class="w-6 h-6 text-blue-400" />
+              <Icon name="mdi:map-marker" class="w-6 h-6 text-green-400" />
               <div>
                 <p class="font-semibold">Oxford, United Kingdom</p>
                 <p class="text-sm text-gray-400">
@@ -91,7 +91,6 @@
           </div>
         </div>
 
-        <!-- Right side - Stats and visual elements -->
         <div class="space-y-8">
           <!-- Core values -->
           <div class="glass-card p-8">
@@ -102,11 +101,11 @@
                 <span class="text-gray-300">Clean, maintainable code</span>
               </div>
               <div class="flex items-center space-x-3">
-                <div class="w-2 h-2 bg-purple-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-pink-400 rounded-full"></div>
                 <span class="text-gray-300">User-centered design</span>
               </div>
               <div class="flex items-center space-x-3">
-                <div class="w-2 h-2 bg-pink-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-purple-400 rounded-full"></div>
                 <span class="text-gray-300">Continuous learning</span>
               </div>
               <div class="flex items-center space-x-3">
@@ -125,7 +124,7 @@
             <p class="text-gray-400 mb-6">Want to connect?</p>
             <a
               href="mailto:hello@nathancollins.dev"
-              class="inline-flex items-center space-x-2 px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105"
+              class="inline-flex items-center space-x-2 px-6 py-3 bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105"
             >
               <Icon name="mdi:email" class="w-5 h-5" />
               <span>Get In Touch</span>

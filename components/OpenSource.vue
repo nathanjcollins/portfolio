@@ -19,16 +19,16 @@
           <div class="flex items-start justify-between mb-6">
             <div class="flex items-center space-x-3">
               <div
-                class="w-12 h-12 bg-purple-500/20 rounded-lg flex items-center justify-center"
+                class="w-12 h-12 bg-emerald-500/20 rounded-lg flex items-center justify-center"
               >
                 <Icon
                   name="mdi:microsoft-visual-studio-code"
-                  class="w-8 h-8 text-purple-400"
+                  class="w-8 h-8 text-emerald-400"
                 />
               </div>
               <div>
                 <h3
-                  class="text-xl font-semibold group-hover:text-purple-400 transition-colors"
+                  class="text-xl font-semibold group-hover:text-emerald-400 transition-colors"
                 >
                   Zed F# Extension
                 </h3>
@@ -49,11 +49,11 @@
 
           <div class="flex flex-wrap gap-2 mb-6">
             <span
-              class="px-2 py-1 bg-purple-500/20 text-purple-300 text-xs rounded-full"
+              class="px-2 py-1 bg-emerald-500/20 text-emerald-300 text-xs rounded-full"
               >F#</span
             >
             <span
-              class="px-2 py-1 bg-blue-500/20 text-blue-300 text-xs rounded-full"
+              class="px-2 py-1 bg-teal-500/20 text-teal-300 text-xs rounded-full"
               >Scheme</span
             >
             <span
@@ -118,7 +118,7 @@
 
           <div class="flex flex-wrap gap-2 mb-6">
             <span
-              class="px-2 py-1 bg-blue-500/20 text-blue-300 text-xs rounded-full"
+              class="px-2 py-1 bg-teal-500/20 text-teal-300 text-xs rounded-full"
               >Lua</span
             >
             <span
@@ -126,7 +126,7 @@
               >Neovim</span
             >
             <span
-              class="px-2 py-1 bg-purple-500/20 text-purple-300 text-xs rounded-full"
+              class="px-2 py-1 bg-emerald-500/20 text-emerald-300 text-xs rounded-full"
               >LSP</span
             >
             <span
@@ -162,7 +162,7 @@
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
           <a
             href="https://github.com/nathanjcollins"
-            class="inline-flex items-center space-x-2 px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-600 hover:from-purple-600 hover:to-pink-700 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105"
+            class="inline-flex items-center space-x-2 px-6 py-3 bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-600 hover:to-teal-700 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105"
           >
             <Icon name="mdi:github" class="w-5 h-5" />
             <span>View GitHub Profile</span>

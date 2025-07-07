@@ -69,11 +69,11 @@
         <div class="glass-card p-8 card-hover-lift group">
           <div class="flex items-center mb-6">
             <div
-              class="w-12 h-12 bg-purple-500/20 rounded-lg flex items-center justify-center mr-4 group-hover:bg-purple-500/30 transition-colors"
+              class="w-12 h-12 bg-emerald-500/20 rounded-lg flex items-center justify-center mr-4 group-hover:bg-emerald-500/30 transition-colors"
             >
               <Icon
                 name="mdi:microsoft-visual-studio"
-                class="w-8 h-8 text-purple-400"
+                class="w-8 h-8 text-emerald-400"
               />
             </div>
             <h3 class="text-xl font-semibold">Backend</h3>
@@ -82,40 +82,40 @@
             <div class="flex items-center justify-between">
               <span class="text-gray-300">C#</span>
               <div class="flex space-x-1">
-                <div class="w-2 h-2 bg-purple-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-purple-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-purple-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-purple-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-purple-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-emerald-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-emerald-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-emerald-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-emerald-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-emerald-400 rounded-full"></div>
               </div>
             </div>
             <div class="flex items-center justify-between">
               <span class="text-gray-300">F#</span>
               <div class="flex space-x-1">
-                <div class="w-2 h-2 bg-purple-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-purple-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-purple-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-purple-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-emerald-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-emerald-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-emerald-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-emerald-400 rounded-full"></div>
                 <div class="w-2 h-2 bg-gray-600 rounded-full"></div>
               </div>
             </div>
             <div class="flex items-center justify-between">
               <span class="text-gray-300">ASP.NET Core</span>
               <div class="flex space-x-1">
-                <div class="w-2 h-2 bg-purple-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-purple-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-purple-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-purple-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-purple-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-emerald-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-emerald-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-emerald-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-emerald-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-emerald-400 rounded-full"></div>
               </div>
             </div>
             <div class="flex items-center justify-between">
               <span class="text-gray-300">Node.js</span>
               <div class="flex space-x-1">
-                <div class="w-2 h-2 bg-purple-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-purple-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-purple-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-purple-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-emerald-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-emerald-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-emerald-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-emerald-400 rounded-full"></div>
                 <div class="w-2 h-2 bg-gray-600 rounded-full"></div>
               </div>
             </div>
@@ -126,9 +126,9 @@
         <div class="glass-card p-8 card-hover-lift group">
           <div class="flex items-center mb-6">
             <div
-              class="w-12 h-12 bg-blue-500/20 rounded-lg flex items-center justify-center mr-4 group-hover:bg-blue-500/30 transition-colors"
+              class="w-12 h-12 bg-teal-500/20 rounded-lg flex items-center justify-center mr-4 group-hover:bg-teal-500/30 transition-colors"
             >
-              <Icon name="mdi:database" class="w-8 h-8 text-blue-400" />
+              <Icon name="mdi:database" class="w-8 h-8 text-teal-400" />
             </div>
             <h3 class="text-xl font-semibold">Database</h3>
           </div>
@@ -136,39 +136,39 @@
             <div class="flex items-center justify-between">
               <span class="text-gray-300">PostgreSQL</span>
               <div class="flex space-x-1">
-                <div class="w-2 h-2 bg-blue-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-blue-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-blue-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-blue-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-blue-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-teal-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-teal-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-teal-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-teal-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-teal-400 rounded-full"></div>
               </div>
             </div>
             <div class="flex items-center justify-between">
               <span class="text-gray-300">SQL Server</span>
               <div class="flex space-x-1">
-                <div class="w-2 h-2 bg-blue-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-blue-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-blue-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-blue-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-blue-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-teal-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-teal-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-teal-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-teal-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-teal-400 rounded-full"></div>
               </div>
             </div>
             <div class="flex items-center justify-between">
               <span class="text-gray-300">Entity Framework</span>
               <div class="flex space-x-1">
-                <div class="w-2 h-2 bg-blue-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-blue-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-blue-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-blue-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-teal-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-teal-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-teal-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-teal-400 rounded-full"></div>
                 <div class="w-2 h-2 bg-gray-600 rounded-full"></div>
               </div>
             </div>
             <div class="flex items-center justify-between">
               <span class="text-gray-300">Redis</span>
               <div class="flex space-x-1">
-                <div class="w-2 h-2 bg-blue-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-blue-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-blue-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-teal-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-teal-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-teal-400 rounded-full"></div>
                 <div class="w-2 h-2 bg-gray-600 rounded-full"></div>
                 <div class="w-2 h-2 bg-gray-600 rounded-full"></div>
               </div>
@@ -234,9 +234,9 @@
         <div class="glass-card p-8 card-hover-lift group">
           <div class="flex items-center mb-6">
             <div
-              class="w-12 h-12 bg-pink-500/20 rounded-lg flex items-center justify-center mr-4 group-hover:bg-pink-500/30 transition-colors"
+              class="w-12 h-12 bg-lime-500/20 rounded-lg flex items-center justify-center mr-4 group-hover:bg-lime-500/30 transition-colors"
             >
-              <Icon name="mdi:tools" class="w-8 h-8 text-pink-400" />
+              <Icon name="mdi:tools" class="w-8 h-8 text-lime-400" />
             </div>
             <h3 class="text-xl font-semibold">Tools & Workflow</h3>
           </div>
@@ -244,40 +244,40 @@
             <div class="flex items-center justify-between">
               <span class="text-gray-300">Neovim</span>
               <div class="flex space-x-1">
-                <div class="w-2 h-2 bg-pink-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-pink-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-pink-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-pink-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-pink-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-lime-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-lime-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-lime-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-lime-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-lime-400 rounded-full"></div>
               </div>
             </div>
             <div class="flex items-center justify-between">
               <span class="text-gray-300">Claude Code</span>
               <div class="flex space-x-1">
-                <div class="w-2 h-2 bg-pink-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-pink-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-pink-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-pink-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-pink-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-lime-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-lime-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-lime-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-lime-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-lime-400 rounded-full"></div>
               </div>
             </div>
             <div class="flex items-center justify-between">
               <span class="text-gray-300">Git</span>
               <div class="flex space-x-1">
-                <div class="w-2 h-2 bg-pink-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-pink-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-pink-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-pink-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-pink-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-lime-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-lime-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-lime-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-lime-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-lime-400 rounded-full"></div>
               </div>
             </div>
             <div class="flex items-center justify-between">
               <span class="text-gray-300">Bruno</span>
               <div class="flex space-x-1">
-                <div class="w-2 h-2 bg-pink-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-pink-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-pink-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-pink-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-lime-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-lime-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-lime-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-lime-400 rounded-full"></div>
                 <div class="w-2 h-2 bg-gray-600 rounded-full"></div>
               </div>
             </div>
@@ -288,9 +288,9 @@
         <div class="glass-card p-8 card-hover-lift group">
           <div class="flex items-center mb-6">
             <div
-              class="w-12 h-12 bg-cyan-500/20 rounded-lg flex items-center justify-center mr-4 group-hover:bg-cyan-500/30 transition-colors"
+              class="w-12 h-12 bg-green-500/20 rounded-lg flex items-center justify-center mr-4 group-hover:bg-green-500/30 transition-colors"
             >
-              <Icon name="mdi:architecture" class="w-8 h-8 text-cyan-400" />
+              <Icon name="mdi:architecture" class="w-8 h-8 text-green-400" />
             </div>
             <h3 class="text-xl font-semibold">Architecture</h3>
           </div>
@@ -298,39 +298,39 @@
             <div class="flex items-center justify-between">
               <span class="text-gray-300">Clean Architecture</span>
               <div class="flex space-x-1">
-                <div class="w-2 h-2 bg-cyan-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-cyan-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-cyan-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-cyan-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-cyan-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-green-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-green-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-green-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-green-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-green-400 rounded-full"></div>
               </div>
             </div>
             <div class="flex items-center justify-between">
               <span class="text-gray-300">Microservices</span>
               <div class="flex space-x-1">
-                <div class="w-2 h-2 bg-cyan-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-cyan-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-cyan-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-cyan-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-green-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-green-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-green-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-green-400 rounded-full"></div>
                 <div class="w-2 h-2 bg-gray-600 rounded-full"></div>
               </div>
             </div>
             <div class="flex items-center justify-between">
               <span class="text-gray-300">CQRS</span>
               <div class="flex space-x-1">
-                <div class="w-2 h-2 bg-cyan-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-cyan-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-cyan-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-cyan-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-green-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-green-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-green-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-green-400 rounded-full"></div>
                 <div class="w-2 h-2 bg-gray-600 rounded-full"></div>
               </div>
             </div>
             <div class="flex items-center justify-between">
               <span class="text-gray-300">Event Sourcing</span>
               <div class="flex space-x-1">
-                <div class="w-2 h-2 bg-cyan-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-cyan-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-cyan-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-green-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-green-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-green-400 rounded-full"></div>
                 <div class="w-2 h-2 bg-gray-600 rounded-full"></div>
                 <div class="w-2 h-2 bg-gray-600 rounded-full"></div>
               </div>

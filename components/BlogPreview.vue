@@ -29,7 +29,7 @@
 
             <!-- Title -->
             <h3
-              class="text-xl font-semibold mb-3 group-hover:text-blue-400 transition-colors line-clamp-2"
+              class="text-xl font-semibold mb-3 group-hover:text-green-400 transition-colors line-clamp-2"
             >
               {{ post.title }}
             </h3>
@@ -44,7 +44,7 @@
               <span
                 v-for="tag in post.tags.slice(0, 2)"
                 :key="tag"
-                class="px-2 py-1 bg-blue-500/20 text-blue-300 text-xs rounded-full"
+                class="px-2 py-1 bg-green-500/20 text-green-300 text-xs rounded-full"
               >
                 {{ tag }}
               </span>
@@ -58,7 +58,7 @@
 
             <!-- Read more link -->
             <div
-              class="flex items-center text-blue-400 text-sm font-medium group-hover:text-blue-300 transition-colors mt-auto"
+              class="flex items-center text-green-400 text-sm font-medium group-hover:text-green-300 transition-colors mt-auto"
             >
               <span>Read more</span>
               <Icon
@@ -88,7 +88,7 @@
       <div class="text-center" v-if="posts?.length">
         <NuxtLink
           to="/blog"
-          class="inline-flex items-center space-x-2 px-8 py-4 bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105"
+          class="inline-flex items-center space-x-2 px-8 py-4 bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105"
         >
           <Icon name="mdi:book-open" class="w-5 h-5" />
           <span>View All Posts</span>

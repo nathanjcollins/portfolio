@@ -5,8 +5,12 @@
         <!-- Brand column -->
         <div class="md:col-span-2">
           <div class="flex items-center space-x-3 mb-6">
-            <div class="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center text-xl font-bold text-white">
-              NC
+            <div class="w-12 h-12 rounded-lg overflow-hidden ring-2 ring-green-500/30">
+              <img 
+                src="/images/profile.jpg" 
+                alt="Nathan Collins" 
+                class="w-full h-full object-cover"
+              />
             </div>
             <div>
               <h3 class="text-xl font-bold">Nathan Collins</h3>
