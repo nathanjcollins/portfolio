@@ -43,8 +43,10 @@
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    background-size: 200% 200%;
-    animation: gradient-shift 8s ease infinite;
+    /* Disabled animation temporarily to debug CPU usage */
+    /* animation: gradient-shift 12s ease infinite;
+    will-change: background-position;
+    transform: translateZ(0); */
   }
 
   .glass-card {
@@ -70,13 +72,17 @@
     box-shadow:
       0 0 20px rgba(59, 130, 246, 0.3),
       0 0 40px rgba(59, 130, 246, 0.1);
-    animation: glow-pulse 4s ease-in-out infinite alternate;
+    /* Disabled animation temporarily to debug CPU usage */
+    /* animation: glow-pulse 6s ease-in-out infinite alternate;
+    will-change: box-shadow;
+    transform: translateZ(0); */
   }
 
   .scroll-indicator {
     opacity: 0.75;
     transition: opacity 0.3s ease;
-    animation: bounce-slow 3s ease-in-out infinite;
+    /* Removed bounce-slow animation - it was causing high CPU usage */
+    transform: translateZ(0);
   }
 
   .scroll-indicator:hover {
@@ -92,7 +98,10 @@
   }
 
   .float-gentle {
-    animation: float-gentle 6s ease-in-out infinite;
+    /* Disabled animation temporarily to debug CPU usage */
+    /* animation: float-gentle 8s ease-in-out infinite;
+    will-change: transform; */
+    transform: translateZ(0);
   }
 }
 

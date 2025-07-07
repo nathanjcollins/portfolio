@@ -88,7 +88,7 @@
       <div class="text-center" v-if="posts?.length">
         <NuxtLink
           to="/blog"
-          class="inline-flex items-center space-x-2 px-8 py-4 bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 glow-effect"
+          class="inline-flex items-center space-x-2 px-8 py-4 bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105"
         >
           <Icon name="mdi:book-open" class="w-5 h-5" />
           <span>View All Posts</span>
@@ -133,4 +133,3 @@ const formatDate = (date) => {
   overflow: hidden;
 }
 </style>
-

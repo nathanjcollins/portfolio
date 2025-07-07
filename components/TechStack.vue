@@ -242,7 +242,7 @@
           </div>
           <div class="space-y-3">
             <div class="flex items-center justify-between">
-              <span class="text-gray-300">VS Code</span>
+              <span class="text-gray-300">Neovim</span>
               <div class="flex space-x-1">
                 <div class="w-2 h-2 bg-pink-400 rounded-full"></div>
                 <div class="w-2 h-2 bg-pink-400 rounded-full"></div>
@@ -252,7 +252,7 @@
               </div>
             </div>
             <div class="flex items-center justify-between">
-              <span class="text-gray-300">JetBrains Rider</span>
+              <span class="text-gray-300">Claude Code</span>
               <div class="flex space-x-1">
                 <div class="w-2 h-2 bg-pink-400 rounded-full"></div>
                 <div class="w-2 h-2 bg-pink-400 rounded-full"></div>
@@ -262,17 +262,17 @@
               </div>
             </div>
             <div class="flex items-center justify-between">
-              <span class="text-gray-300">Figma</span>
+              <span class="text-gray-300">Git</span>
               <div class="flex space-x-1">
                 <div class="w-2 h-2 bg-pink-400 rounded-full"></div>
                 <div class="w-2 h-2 bg-pink-400 rounded-full"></div>
                 <div class="w-2 h-2 bg-pink-400 rounded-full"></div>
-                <div class="w-2 h-2 bg-gray-600 rounded-full"></div>
-                <div class="w-2 h-2 bg-gray-600 rounded-full"></div>
+                <div class="w-2 h-2 bg-pink-400 rounded-full"></div>
+                <div class="w-2 h-2 bg-pink-400 rounded-full"></div>
               </div>
             </div>
             <div class="flex items-center justify-between">
-              <span class="text-gray-300">Postman</span>
+              <span class="text-gray-300">Bruno</span>
               <div class="flex space-x-1">
                 <div class="w-2 h-2 bg-pink-400 rounded-full"></div>
                 <div class="w-2 h-2 bg-pink-400 rounded-full"></div>
@@ -341,4 +341,3 @@
     </div>
   </section>
 </template>
-

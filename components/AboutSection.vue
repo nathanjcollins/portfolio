@@ -9,14 +9,15 @@
               About <span class="gradient-text">Me</span>
             </h2>
             <p class="text-xl text-gray-300 leading-relaxed mb-6">
-              I'm a passionate Lead Developer at Cap Energy with over 10 years of
-              experience building scalable web applications and leading
+              I'm a passionate Lead Developer at Cap Energy with over 10 years
+              of experience building scalable web applications and leading
               development teams.
             </p>
             <p class="text-lg text-gray-400 leading-relaxed mb-6">
-              Based in the historic city of Oxford, UK, I currently lead development
-              at Cap Energy, where I help transform digital presence and streamline
-              operations through elegant code and thoughtful architecture.
+              Based in the historic city of Oxford, UK, I currently lead
+              development at Cap Energy, where I help transform digital presence
+              and streamline operations through elegant code and thoughtful
+              architecture.
             </p>
           </div>
 
@@ -50,7 +51,7 @@
               <div>
                 <h3 class="font-semibold text-lg mb-2">Team Leadership</h3>
                 <p class="text-gray-400">
-                  Led development teams of 5-12 engineers, mentoring junior
+                  Led development teams of 3-8 engineers, mentoring junior
                   developers and establishing best practices for code quality
                   and deployment processes.
                 </p>
@@ -135,4 +136,3 @@
     </div>
   </section>
 </template>
-
